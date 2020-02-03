@@ -5,3 +5,38 @@
 /* FOOTER */
 
 /** git fetch pour savoir si y a changement */
+
+h1 {
+    color: red;
+    font-size: 10rem;
+}
+
+h1:after {
+    content: '';
+    display: inline-block;
+    height: 1.1rem;
+    width: 3px;
+    background-color: rgba(0, 0, 0.7)
+    vertical-ligne
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    } 50% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
+
+h1::after {
+    animation-name: cursor;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    content: '';
+    display: inline-block;
+    height: 1.1rem;
+    width: 3px;
+    
+}
